@@ -1,4 +1,3 @@
-import redis from "../../../../../lib/cache";
 import { ICreateUserDTO } from "src/modules/Users/dtos/ICreateUserDTO";
 import { getRepository, Repository } from "typeorm";
 import {IUsersRepository} from "../../../repositories/IUsersRepository"
