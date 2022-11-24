@@ -90,8 +90,8 @@
       "post": {
         "tags": ["Movies"],
         "security": [{ "bearerAuth": [] }],
-        "summary": "List all movies",
-        "description": "List all movies",
+        "summary": "Create a new movie",
+        "description": "Create a new movie",
         "requestBody": {
           "content": {
             "application/json": {
