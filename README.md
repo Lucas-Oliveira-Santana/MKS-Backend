@@ -47,7 +47,7 @@ Server up
 ```bash
  node ./dist/shared/infra/http/server.js
  ```
-API Documentation ( Local )
+## API Documentation ( Local )
 Once the application is set up, you will be able to access OpenSwagger documentation, all you have to do is browse to http://localhost:3333/api-docs
 
 ## not implemented
