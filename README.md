@@ -30,9 +30,7 @@ cd MKS-Backend
 ## Install dependecies 
 ```bash
  npm install
- 
- 
- yarn
+
  ```
 Docker up
   ```bash
