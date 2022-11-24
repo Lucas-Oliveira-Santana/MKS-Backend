@@ -1,14 +1,18 @@
 {
     
   "type": "postgres",
-  "port": 5432,
-  "host":"database",
+  "port": 1288,
+  "host":"localhost",
   "username": "docker",
   "password": "test",
-  "database": "mks",
-  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
-  "entities": ["./src/modules/**/entities/*.ts"],
+  "database": "database",
+  "migrations": 
+    ["./dist/shared/infra/typeorm/migrations/*.js"
+  ],
+  "entities": [
+    "./dist/modules/**/entities/*.js"
+  ],
   "cli": {
-  "migrationsDir": "./src/shared/infra/typeorm/migrations"
+  "migrationsDir": "./dist/shared/infra/typeorm/migrations"
 }
 }
